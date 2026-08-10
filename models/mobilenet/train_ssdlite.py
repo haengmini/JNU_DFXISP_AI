@@ -251,7 +251,7 @@ def parse_args():
     parser.add_argument(
         "--weights",
         type=Path,
-        default=Path(__file__).parent / "ssdlite320_mobilenet_v3_large_coco-a79551df.pth",
+        default=Path(__file__).parent / "ssdlite_mobilenet_v3_large.pth",
     )
     parser.add_argument(
         "--from-scratch",
