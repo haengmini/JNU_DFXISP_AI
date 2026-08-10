@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+**/.venv/
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Test datasets (ZIP archives are intentionally included)
+dataset/LOD_test/
+dataset/PASCAL_test/
