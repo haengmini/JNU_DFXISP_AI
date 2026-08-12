@@ -30,9 +30,9 @@ The detection models are trained on RGB JPEG images converted from RAW files. Th
 │   └── README.md                  # Pipeline design and verification document
 ├── models/
 │   ├── mobilenet/
-│   │   └── best.pt                # Final SSDLite-MobileNetV3 weights
+│   │   └── ssdlite-mobilenetv3.pt # Final SSDLite-MobileNetV3 weights
 │   └── yolov8n/
-│       └── best.pt                # Final YOLOv8n weights
+│       └── yolov8n.pt             # Final YOLOv8n weights
 └── README.md                       # Project overview and usage information
 ```
 
