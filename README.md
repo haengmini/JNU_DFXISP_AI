@@ -27,7 +27,7 @@ The detection models are trained on RGB JPEG images converted from RAW files. Th
 ├── default_isp/
 │   ├── default_isp.cpp            # Integer-based default ISP implementation
 │   ├── default_isp.hpp            # ISP interface and DFX top declaration
-│   └── default_isp_v2.md          # Pipeline design and verification document
+│   └── README.md                  # Pipeline design and verification document
 ├── models/
 │   ├── mobilenet/
 │   │   └── best.pt                # Final SSDLite-MobileNetV3 weights
@@ -82,4 +82,4 @@ Pipeline stages:
 7. Gamma LUT
 8. RGB888 Output
 
-This module provides a development entry point with runtime AWB control and a fixed-AWB DFX top that shares the same port contract as the other reconfigurable modules. See [default_isp/default_isp_v2.md](default_isp/default_isp_v2.md) for implementation details, intentional differences from Vitis Vision, constants, and verification status.
+This module provides a development entry point with runtime AWB control and a fixed-AWB DFX top that shares the same port contract as the other reconfigurable modules. See [default_isp/README.md](default_isp/README.md) for implementation details, intentional differences from Vitis Vision, constants, and verification status.
