@@ -1,4 +1,4 @@
-# default_ISP — file overview
+# Default ISP — File Overview
 
 `src/default_isp.cpp` and `include/default_isp.hpp` implement default_ISP, a
 standard ISP arm restructured to follow the AMD Vitis Vision L3 `isppipeline`
